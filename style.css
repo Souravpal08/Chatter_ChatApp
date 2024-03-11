@@ -1,0 +1,93 @@
+.logo {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    height: 55px;
+    width: 55px;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    margin-top: 0;
+    height: 400px;
+    overflow-y: scroll;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    border: 2px solid black;
+    box-shadow: 5px 5px 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+h2 span{
+    color: #0250c5;
+    font-weight: 700;
+}
+.message { /* Common styles for both types of messages */
+    background-color:rgb(184, 178, 178); /* A light background for better readability */
+    border: 1px solid #ddd; 
+    padding: 10px;
+    margin: 10px 0; /* Vertical spacing between messages */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 25%; /* Limit message width */
+    word-wrap: break-word; /* Ensure long messages wrap properly */
+  }
+
+
+.msg-left {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    
+}
+
+.msg-right {
+    float: right;
+    clear: both;
+    margin-right: 20px;
+
+}
+.send-box{
+   display: block;
+   margin: auto;
+    text-align: center;
+    width:100% ;
+    max-width: 900px;
+}
+#Msg-input{
+    width: 80%;
+    margin-top: 5px;
+    height:30px ;
+    border-radius: 6px;
+    background: transparent;
+    font-size: 16px;
+   
+}
+.btn{
+    padding: 3px 7px;
+    border-radius:  6px;
+    height:37px ;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #6a4dd2;
+    color: aliceblue;
+    width: 7%;
+   
+    
+}
+.btn:active {
+    transform: scale(1.05);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatter->chatApp</title>
+    <link rel="stylesheet" href="style.css">
+    <!--here I add stand alone build server to connect client and server-->
+    <script defer src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="Logo.png" alt="">
+        <h2>Welcome to &nbsp;  <span>Chatter</span> | It's a realtime chatApp</h2>
+    </nav>
+    <div class="container">
+      <!--  <div  class="msg-right">Hey Bro</div>
+        <div class="msg-left">Hi sourav</div>-->
+    </div>
+    <div class="send-box">
+        <form action="#" id="send-container">
+            <input type="text" name="Msg-input" id="Msg-input" placeholder="Type a message here">
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
